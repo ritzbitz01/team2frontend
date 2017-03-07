@@ -1,0 +1,141 @@
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+input[type=button] {
+  background: #ff0000; box-shadow:inset -1px -1px 1px rgba(black,.3);
+  text-shadow:0 -1px 0 rgba(black,.3);
+}
+
+delete-button {
+  background: #ff0000; box-shadow:inset -1px -1px 1px rgba(black,.3);
+  text-shadow:0 -1px 0 rgba(black,.3);
+}
+
+input[type=button][disabled] {
+  background: #aaa; box-shadow:inset -1px -1px 1px rgba(white,.2);
+  text-shadow:0 -1px 0 rgba(white,.2);
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 15px 0;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+.login-page {
+  width: 420px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 420px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form button {
+  margin: 25px 0px 0px 0px;
+}
+
+.loginerrordiv h4 {
+  color: red;
+}
+
+.projectLayout {
+  width:100%;
+}
+
+.projectTable {
+  display: table;
+}
+
+.projectTitle {
+  background: #b5dcb3;
+  width: 100%;
+}
+
+.projectChapterDiv {
+  display: table-cell;
+  border: 10px;
+  height:100%;
+  width:300px;
+  margin: 10px;
+  float:left;
+}
+
+.projectChapterText {
+   display: table-cell;
+   background-color:#eee;
+   margin: 10px;
+   height:100%;
+   width:100%;
+}
+
+.projectCharacterDiv {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.projectSettingsDiv {
+    border: 2px solid black;
+    border-radius: 5px;
+}
